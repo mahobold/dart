@@ -29,9 +29,40 @@ jedi ();
 jedi ();
 jedi ();
 jedi ();
+
+  //funções com parâmetros
+  jedii("Dieimes", "Fulano");
+  jedii("Dieimes", "Ciclano");
+  jedii("Dieimes", "Beltrano");
+  jedii("Dieimes", "Coiso");
+
+  //funções com parâmetros
+  jediii("Dieimes", "Fulano");
+  jediii("Dieimes", "Ciclano");
+  jediii("Dieimes", "Beltrano");
+  jediii("Dieimes", "Coiso", false);
+
 }
 
-void jedi (){
-  print("O professor é um Mestre Jedi");
-  print("Os alunos são os Padawans");
-}
+  void jedi (){
+    print("O professor é um Mestre Jedi");
+    print("Os alunos são os Padawans");
+  }
+
+  void jedii (String professor, aluno) {
+    print("O professor $professor é um Mestre Jedi");
+    print("O aluno $aluno é Padawan");
+  }
+
+    void jediii (String professor, aluno, [bool dia = true]) {
+    print("O professor $professor é um Mestre Jedi");
+    print("O aluno $aluno é Padawan");
+
+    if (dia == true){
+      print("Bom dia!");
+    }else{
+      print("Boa tarde!");
+    }
+  }
+
+
