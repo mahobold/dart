@@ -6,4 +6,9 @@ void main() {
     43: "Ivaiporã"
   };
   print(codigo[11]);
+  print(codigo.length);
+  print(codigo.values);
+  print(codigo.keys);
+  print(codigo.containsKey(11));
+  print(codigo.containsValue("Jardim Alegre"));
 }
